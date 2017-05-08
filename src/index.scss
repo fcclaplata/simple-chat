@@ -1,0 +1,16 @@
+// index.scss
+@import '~normalize.css';
+@import '~react-md/src/scss/react-md';
+
+$md-primary-color: $md-blue-500;
+$md-secondary-color: $md-lime-a-400;
+
+@include react-md-everything;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto'
+}

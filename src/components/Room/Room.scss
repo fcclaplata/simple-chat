@@ -1,0 +1,30 @@
+room {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+
+    header{
+        display: flex;
+        flex-grow: 0;
+    }
+
+    messages{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+
+        .md-card {
+            margin: 5px 0;
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-grow: 0;
+        padding: 5px 15px;
+    }
+
+}
